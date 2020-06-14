@@ -2,7 +2,7 @@
 # out the current state.
 
 def getRow(row = [])
-  return  " #{row[0] || ' '} | #{row[1] || ' '} | #{row[2] || ' '} "
+  return  " #{row[0] || ' '} | #{row[1] || ' '} | #{row[2]} "
 end
 
 

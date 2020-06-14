@@ -8,7 +8,7 @@ def getRow(row = [])
 end
 
 
-def display_board(board)
+def display_board(board = [])
   puts getRow(board[0,2])
   puts divider
   puts getRow(board[3,5])

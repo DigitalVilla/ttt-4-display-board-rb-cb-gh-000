@@ -2,11 +2,11 @@
 # out the current state.
 
 
-
+divider = "-----------"
 def getRow(row)
   return  " #{row[0]} | #{row[1]} | #{row[2]} "
 end
-divider = "-----------"
+
 
 def display_board(board)
   puts getRow(board[0,2])

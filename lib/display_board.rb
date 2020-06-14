@@ -9,7 +9,7 @@ end
 
 
 def display_board(board)
-  puts " #{board[0]} | #{board[1]} | #{board[2]} "
+  puts getRow(board[0,2])
   puts divider
   puts getRow(board[3,5])
   puts divider

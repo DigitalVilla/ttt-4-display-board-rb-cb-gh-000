@@ -3,7 +3,7 @@
 
 
 divider = "-----------"
-def getRow(row)
+def getRow(row = [])
   return  " #{row[0] || ' '} | #{row[1] || ' '} | #{row[2] || ' '} "
 end
 

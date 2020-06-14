@@ -65,7 +65,7 @@ describe "#display_board in 'lib/display_board.rb" do
       output = capture_puts{ display_board(board) }
       rows = output.split("\n")
 
-      expect(rows[0]).to eq(" X | X | X ")
+      expect(rows[0]).to eq(" X | X | X")
       expect(rows[1]).to eq("-----------")
       expect(rows[2]).to eq("   |   |   ")
       expect(rows[3]).to eq("-----------")

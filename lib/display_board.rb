@@ -14,5 +14,3 @@ def display_board(board = [])
   puts divider
   puts getRow(board[6,8])
 end
-" X | X | X "
-" X | X |   "

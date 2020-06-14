@@ -1,8 +1,6 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 
-
-divider = "-----------"
 def getRow(row = [])
   return  " #{row[0] || ' '} | #{row[1] || ' '} | #{row[2] || ' '} "
 end
